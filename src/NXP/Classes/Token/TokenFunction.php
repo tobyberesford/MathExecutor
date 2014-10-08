@@ -32,8 +32,12 @@ class TokenFunction extends AbstractContainerToken implements InterfaceFunction
         $args = array();
         list($places, $function) = $this->value;
         for ($i = 0; $i < $places; $i++) {
-            array_push($args, array_pop($stack)->getValue());
+            //allow less than reqd num of arguments
+        	if (!(empty($stack))) {
+            	array_push($args, array_pop($stack)->getValue());
+            }
         }
+        //put args back in order
         $result = call_user_func_array($function, $args);
 
         return new TokenNumber($result);
