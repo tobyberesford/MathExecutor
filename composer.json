@@ -1,14 +1,14 @@
 {
-    "name": "nxp/math-executor",
+    "name": "tobyberesford/mathexecutor",
     "description": "Simple math expressions calculator",
     "minimum-stability": "stable",
     "keywords": ["math","parser","expression","calculator"],
-    "homepage": "http://github.com/NeonXP/MathExecutor",
+    "homepage": "http://github.com/tobyberesford/MathExecutor",
     "license": "GPLv2",
     "authors": [
         {
-            "name": "Alexander 'NeonXP' Kiryukhin",
-            "email": "frei@neonxp.info"
+            "name": "Toby Beresford",
+            "email": "subs@tobyberesford.com"
         }
     ],
     "autoload": {
