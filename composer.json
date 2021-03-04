@@ -4,7 +4,7 @@
     "minimum-stability": "stable",
     "keywords": ["math","parser","expression","calculator"],
     "homepage": "http://github.com/tobyberesford/MathExecutor",
-    "license": "PHP-3.01",
+    "license": "MIT",
     "authors": [
         {
             "name": "Toby Beresford",
